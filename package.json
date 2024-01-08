@@ -1,0 +1,31 @@
+{
+  "name": "mmm-todoist-flex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "MMM-Todoist-Flex.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup --config"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mossglenn/MMM-Todoist-Flex.git"
+  },
+  "author": "Amos Glenn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mossglenn/MMM-Todoist-Flex/issues"
+  },
+  "homepage": "https://github.com/mossglenn/MMM-Todoist-Flex#readme",
+  "devDependencies": {
+    "@rollup/plugin-json": "^6.1.0",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@typescript-eslint/eslint-plugin": "^6.18.1",
+    "@typescript-eslint/parser": "^6.18.1",
+    "eslint": "^8.56.0",
+    "eslint-config-prettier": "^9.1.0",
+    "rollup": "^4.9.4",
+    "rollup-plugin-ts": "^3.4.5",
+    "typescript": "^5.3.3"
+  }
+}
